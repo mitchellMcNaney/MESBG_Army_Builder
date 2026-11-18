@@ -1,8 +1,8 @@
-namespace Mesbg.Unit.Models;
+namespace Mesbg.Api.Models;
 
 public class Unit
 {
-    public int unit_id {get; private set;}
+    public int UnitId {get; private set;}
     public int points {get; private set;}
     public string name {get; private set;}
     public string faction {get; private set;}
